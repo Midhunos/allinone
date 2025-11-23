@@ -1,0 +1,26 @@
+# Python
+*.pyc
+__pycache__/
+*.log
+
+# Virtual Environment
+venv/
+env/
+.env/
+
+# Django-specific
+db.sqlite3
+local_settings.py
+media/
+static_root/ # Or your specific static files output directory
+
+# IDE-specific
+.idea/
+.vscode/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Other
+.coverage
